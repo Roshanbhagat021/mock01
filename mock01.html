@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mock</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .containers{
+        width: 100%;
+        height: 650px;
+        border: 2px dotted black;
+        margin: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items:center ;
+        padding: 10px;
+    }
+
+    #Grandfather{
+        width: 6%;
+        height: 100%;
+    }
+
+    #Father{
+        width: 47%;
+        height: 97%;
+        border: 2px dotted black;
+        margin-right: 12px;
+        display: flex;
+    }
+
+    #Uncle{
+        width: 47%;
+        height: 97%;
+        border: 2px dotted black;
+        text-align: center;
+        margin:auto;
+        /* line-height: 200%; */
+    }
+
+    #person1{
+        width: 50%;
+        height: 95%;
+        border: 2px dotted black;
+        margin-top: 2%;
+        margin-left: 2%;
+        display: flex;
+
+
+    }
+     
+    #Person{
+        width: 17%;
+        height: 100%;
+        /* border: 2px dotted black; */
+        margin-top: 2%;
+        margin-left: 2%;
+
+    }
+    
+
+    #child{
+        width: 18%;
+        height: 95%;
+        border: 1px solid black;
+        margin: 3%;
+        padding: 1%;
+
+    }
+
+    #child3{
+        width: 22%;
+        height: 95%;
+        border: 1px solid black;
+        margin: 3%;
+        padding: 1%;
+
+    }
+
+    #grandchild{
+        font-size: 26px;
+        text-align: center;
+        width: 60%;
+        height: 10%;
+        border: 2px dotted black;
+        margin: auto;
+        line-height: 200%;
+        margin-top: 10px;
+
+
+       
+    }
+    
+    #uncle1{
+        width: 95%;
+        height: 95%;
+        /* border: 2px dotted black; */
+        margin-top: 2%;
+        margin-left: 2%;
+        text-align: center;
+    }
+   
+    #uc{
+        width: 99%;
+        height: 7%;
+        border: 2px dotted black;
+        line-height: 220%;
+    }
+
+    #uc2{
+        width: 99%;
+        height: 80%;
+        border: 2px dotted black;
+    }
+
+    #c{
+        width: 95%;
+        height: 10%;
+        border: 0.5px solid black;
+        margin-top: 10px;
+        margin-left: 10px;
+        line-height: 220%;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 4px;
+    }
+
+    #c2{
+        width: 95%;
+        height: 60%;
+        /* border: 2px dotted rgb(173, 36, 36); */
+        margin-top: 10px;
+        margin-left: 10px;
+        box-shadow: rgba(0, 0, 0, 1) 0px 1px 4px;
+    }
+
+    #sc{
+        width: 95%;
+        height: 22%;
+        border: 2px dotted black;
+        margin-top: 15px;
+        margin-left: 10px;
+        font-size: 24px;
+        line-height: 220%;
+
+    }
+
+</style>
+<body>
+<div class="containers">
+    <div id="Grandfather">Grandfather</div>
+    <div id="Father">
+        <div style="margin-top:1%; margin-left: 1%;"> Father</div>
+        <div  id="person1">
+            <div id="Person">Person-1</div>
+            <div id="child">Child-1</div>
+            <div id="child">Child-2</div>
+            <div id="child3">Child-3
+                <div id="grandchild" >1</div>
+                <div id="grandchild" >2</div>
+                <div id="grandchild" >3</div>
+            </div>
+        </div>
+    </div>
+    <div id="Uncle">
+        <div id="uncle1">
+            Uncle
+            <div id="uc">Person-1</div>
+            <div id="uc2">Person-2
+                <div id="c">Child-1</div>
+                <div id="c2">Child-2
+                    <div style="background-color: orange;" id="sc">1</div>
+                    <div id="sc">2</div>
+                    <div style="background-color: green;" id="sc">3</div>
+                </div>
+                <div id="c">Child-3</div>
+            </div>
+            <div id="uc">Person-3</div>
+        </div>
+        
+    </div>
+</div>
+    
+</body>
+</html>
